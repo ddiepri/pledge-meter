@@ -1,0 +1,18 @@
+{
+  "name": "pledge-meter",
+  "private": true,
+  "version": "1.1.0",
+  "description": "Live Kickstarter campaign stats on BUSY Bar, with a pixel Flipper One",
+  "author": "ddiepri",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "busy-cli build",
+    "app:install": "busy-cli app install",
+    "app:run": "busy-cli app run",
+    "app:stop": "busy-cli app stop"
+  },
+  "devDependencies": {
+    "@busy-app/cli": "0.6.0"
+  }
+}
